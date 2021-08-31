@@ -1,0 +1,18 @@
+.mainForm {
+  display: flex;
+  flex-direction: column;
+  height: 105px;
+  justify-content: space-evenly;
+}
+.mainDiv h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.uploadBtn {
+  background: tomato;
+  border: none;
+  color: white;
+  height: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}

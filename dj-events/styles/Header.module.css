@@ -1,0 +1,62 @@
+.mainContainer {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 30px;
+  box-shadow: 1px 1px 7px grey;
+}
+.mainContainer h1 {
+  font-size: 26px;
+  cursor: pointer;
+  color: rgb(219, 91, 69);
+  transition: all 0.3s ease-in-out;
+}
+.mainContainer h2 {
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.mainContainer h2:hover {
+  transform: scale(0.9);
+}
+.mainContainer h1:hover {
+  transform: scale(0.9);
+}
+.menuRight {
+  display: flex;
+}
+.menuRight h2 {
+  font-size: 18px;
+  font-weight: 500;
+  width: 108px;
+  margin: 1px solid gray;
+  margin: 1px 6px;
+  /* -webkit-box-shadow: 1px 1px 2px grey; */
+  /* box-shadow: 1px 1px 2px grey; */
+  padding: 4px;
+  border-radius: 3px;
+  text-align: center;
+  border: 1px solid gray;
+}
+.menuRight button {
+  font-size: 18px;
+  font-weight: 500;
+  width: 108px;
+  margin: 1px solid gray;
+  margin: 1px 6px;
+  background: none;
+  padding: 4px;
+  border-radius: 3px;
+  text-align: center;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.logintbn {
+  border: none;
+  background: tomato;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,42 @@
+.eventMain {
+  display: -moz-box;
+  display: flex;
+  -moz-box-pack: center;
+  justify-content: center;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  flex-direction: column;
+  box-shadow: 0px 0px 12px grey;
+  padding: 34px 17px;
+  border-radius: 5px;
+}
+.eventMain img {
+  margin-bottom: 10px !important;
+}
+.eventPageButtons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0px;
+}
+.deleteButton {
+  margin-left: 10px;
+}
+.eventPageButtons a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 10px;
+  color: tomato;
+}
+.eventPageButtonsInner {
+  display: flex;
+}
+.title {
+  font-weight: 500;
+  margin: 10px 0px;
+}
+
+.info {
+  box-shadow: 0px 1px 1px 0px grey;
+  padding: 15px 3px;
+}

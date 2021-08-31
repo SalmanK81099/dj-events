@@ -1,0 +1,11 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.mainContainer a{
+    text-decoration: none;
+}

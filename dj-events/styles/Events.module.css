@@ -1,0 +1,28 @@
+.eventsTemplate {
+  display: flex;
+  margin: 20px 0px;
+  padding: 10px 17px;
+  -webkit-box-shadow: 1px 1px 3px grey;
+  box-shadow: 1px 1px 3px grey;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eventsTemplate h3 {
+  font-weight: 500;
+}
+
+.eventsTemplate button {
+  background: tomato;
+  border: none;
+  color: white;
+  width: 80px;
+  height: 30px;
+  border-radius: 4px;
+
+  box-shadow: 1px 1px 3px 0px #b32a11;
+}
+.detailbtn {
+  cursor: pointer;
+}
